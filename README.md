@@ -40,25 +40,25 @@ We propose an *AI-powered Pharmacovigilance Signal Detection Agent* that combine
 
 The overall workflow of the Pharmacovigilance Agent is as follows:
 
-1.* Data Ingestion
+1. Data Ingestion
 Adverse event reports are loaded from CSV datasets containing drug names, reactions, and severity.
 
-2.Data Preprocessing
+2. Data Preprocessing
 Missing or inconsistent records are cleaned to ensure data quality.
 
-3.Text Embedding Generation
+3. Text Embedding Generation
 AE narratives are converted into numerical vectors using pretrained language models.
 
-4.Clustering
+4. Clustering
 Similar adverse events are grouped using unsupervised machine learning algorithms.
 
-5.Signal Detection
+5. Signal Detection
 Each cluster is analyzed for frequency, severity, and trend to compute a signal score.
 
-6.Agentic Decision-Making
+6. Agentic Decision-Making
 The agent prioritizes high-risk clusters based on computed scores.
 
-7.LLM-Based Explanation
+7. LLM-Based Explanation
 Selected signals are summarized into clear, human-readable safety insights.
 
 9.Report Generation
