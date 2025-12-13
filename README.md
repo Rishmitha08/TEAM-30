@@ -40,7 +40,7 @@ We propose an *AI-powered Pharmacovigilance Signal Detection Agent* that combine
 
 The overall workflow of the Pharmacovigilance Agent is as follows:
 
-1.Data Ingestion
+1.* Data Ingestion
 Adverse event reports are loaded from CSV datasets containing drug names, reactions, and severity.
 
 2.Data Preprocessing
