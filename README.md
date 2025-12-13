@@ -36,4 +36,64 @@ We propose an *AI-powered Pharmacovigilance Signal Detection Agent* that combine
 •⁠  ⁠*Retrieval-Augmented Generation (RAG)* for grounded explanations  
 •⁠  ⁠*Large Language Models (LLMs)* for human-readable safety summaries
 
+## System Workflow
+
+The overall workflow of the Pharmacovigilance Agent is as follows:
+
+1.Data Ingestion
+Adverse event reports are loaded from CSV datasets containing drug names, reactions, and severity.
+
+2.Data Preprocessing
+Missing or inconsistent records are cleaned to ensure data quality.
+
+3.Text Embedding Generation
+AE narratives are converted into numerical vectors using pretrained language models.
+
+4.Clustering
+Similar adverse events are grouped using unsupervised machine learning algorithms.
+
+5.Signal Detection
+Each cluster is analyzed for frequency, severity, and trend to compute a signal score.
+
+6.Agentic Decision-Making
+The agent prioritizes high-risk clusters based on computed scores.
+
+7.LLM-Based Explanation
+Selected signals are summarized into clear, human-readable safety insights.
+
+9.Report Generation
+Weekly safety signal reports are produced in structured and textual formats.
+
+## Feasibility
+
+The proposed Pharmacovigilance Signal Detection Agent is highly feasible within a hackathon environment due to the following reasons:
+
+- Uses publicly available adverse event datasets (FAERS samples / synthetic data)
+
+- Relies on pretrained ML and NLP models, avoiding time-consuming training
+
+- Modular Python-based architecture allows rapid development and testing
+
+- Can be implemented without a UI, focusing on backend intelligence as per guidelines
+
+- Scales easily from small sample datasets to real-world FAERS data
+
+The system is designed to work effectively even with limited computational resources, making it practical for short-duration development and demonstrations.
+
+## Reliability
+
+The system ensures reliability through a combination of statistical validation, ML robustness, and explainability:
+
+- Text embeddings capture semantic similarity between adverse events
+
+- Clustering algorithms group related events consistently
+
+- Rule-based signal scoring adds transparency and interpretability
+
+- Deterministic outputs for the same input ensure reproducibility
+
+- LLM-generated summaries are grounded in detected clusters and metrics
+
+- Together, these measures reduce false positives and ensure trustworthy safety signal identification.
+
 
