@@ -96,4 +96,89 @@ The system ensures reliability through a combination of statistical validation, 
 
 - Together, these measures reduce false positives and ensure trustworthy safety signal identification.
 
+## Advantages
+
+•⁠  ⁠*Early Risk Detection*
+
+Identifies emerging drug safety signals at an early stage by analyzing patterns across multiple adverse event reports, helping reduce patient risk.
+
+•⁠  ⁠*Automation at Scale*
+
+Significantly reduces manual workload by automatically clustering, analyzing, and prioritizing adverse events from large and unstructured datasets.
+
+•⁠  ⁠*Explainable Outputs*
+
+Generates clear, human-readable safety summaries using Generative AI, improving transparency, interpretability, and trust for clinical and regulatory teams.
+
+•⁠  ⁠*Agentic Decision-Making*
+
+Uses autonomous reasoning to evaluate frequency, severity, and trends, rather than relying solely on static rules or delayed statistical analysis.
+
+•⁠  ⁠*Domain Adaptability*
+
+Easily extendable to new drugs, therapeutic areas, or regulatory datasets with minimal changes to the core pipeline.
+
+## Data Source
+
+The system uses publicly available pharmacovigilance data, including:
+
+•⁠  ⁠FDA Adverse Event Reporting System (FAERS) sample datasets
+•⁠  ⁠Kaggle adverse event datasets
+•⁠  ⁠Synthetic adverse event narratives (used only for demonstration)
+
+These datasets contain drug names, adverse reactions, seriousness indicators, and narrative descriptions.
+
+## Technology Stack
+
+•⁠  ⁠*Frontend*
+
+React.js for building an interactive user interface
+
+JavaScript (ES6+) for frontend logic
+
+Tailwind CSS for responsive and clean UI design
+
+•⁠  ⁠*Backend*
+
+Python with Flask for REST API development
+
+Flask-CORS for enabling frontend–backend communication
+
+•⁠  ⁠*AI & Data Processing*
+
+Pandas and NumPy for data cleaning and manipulation
+
+Sentence Transformers for text embeddings
+
+Scikit-learn for clustering and signal detection logic
+
+•⁠  ⁠*Data & Storage*
+
+CSV files for adverse event datasets
+
+NumPy files (.npy) for embeddings and clustering outputs
+
+•⁠  ⁠*Tools & Environment*
+
+Node.js and npm for frontend dependency management
+
+Git for version control
+
+Cursor IDE for AI-assisted development
+
+## Limitations
+
+•⁠  ⁠The accuracy of detected safety signals depends on the quality and completeness of input data.
+•⁠  ⁠Synthetic or small demo datasets may not fully represent real-world reporting patterns.
+•⁠  ⁠Unsupervised clustering may occasionally group unrelated adverse events.
+•⁠  ⁠Rule-based signal scoring requires careful threshold tuning.
+•⁠  ⁠LLM-generated explanations may vary in wording and require human review for regulatory use.
+
+## Future Enhancements
+
+•⁠  ⁠Real-time pharmacovigilance monitoring
+•⁠  ⁠Integration with regulatory alert systems
+•⁠  ⁠Multi-language adverse event analysis
+•⁠  ⁠Interactive dashboards for safety teams
+
 
