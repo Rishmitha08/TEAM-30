@@ -16,7 +16,7 @@ Manual analysis of such data is time-consuming, reactive, and prone to missing e
 
 There is a critical need for an intelligent, automated system that can analyze adverse event data, identify emerging risk patterns, and provide explainable insights to support timely decision-making and improve patient safety.
 
-**Objective:**  
+## Objective
 Build an AI-powered Pharmacovigilance Agent that:
 
 - Analyzes adverse event reports
