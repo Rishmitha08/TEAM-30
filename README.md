@@ -167,17 +167,17 @@ Cursor IDE for AI-assisted development
 
 ## Limitations
 
-•⁠  ⁠The accuracy of detected safety signals depends on the quality and completeness of input data.
-•⁠  ⁠Synthetic or small demo datasets may not fully represent real-world reporting patterns.
-•⁠  ⁠Unsupervised clustering may occasionally group unrelated adverse events.
-•⁠  ⁠Rule-based signal scoring requires careful threshold tuning.
-•⁠  ⁠LLM-generated explanations may vary in wording and require human review for regulatory use.
+-⁠  ⁠The accuracy of detected safety signals depends on the quality and completeness of input data.
+-  ⁠Synthetic or small demo datasets may not fully represent real-world reporting patterns.
+-⁠  ⁠Unsupervised clustering may occasionally group unrelated adverse events.
+-  ⁠Rule-based signal scoring requires careful threshold tuning.
+-  ⁠LLM-generated explanations may vary in wording and require human review for regulatory use.
 
 ## Future Enhancements
 
-•⁠  ⁠Real-time pharmacovigilance monitoring
-•⁠  ⁠Integration with regulatory alert systems
-•⁠  ⁠Multi-language adverse event analysis
-•⁠  ⁠Interactive dashboards for safety teams
+-  ⁠Real-time pharmacovigilance monitoring
+- ⁠ Integration with regulatory alert systems
+-  ⁠Multi-language adverse event analysis
+-  ⁠Interactive dashboards for safety teams
 
 
