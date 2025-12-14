@@ -32,8 +32,7 @@ This system helps safety teams **act early and reduce patient risk**.
 We propose an *AI-powered Pharmacovigilance Signal Detection Agent* that combines:
 
 •⁠  ⁠*Machine Learning* for pattern detection  
-•⁠  ⁠*Agentic reasoning* for autonomous decision-making  
-•⁠  ⁠*Retrieval-Augmented Generation (RAG)* for grounded explanations  
+•⁠  ⁠*Agentic reasoning* for autonomous decision-making   
 •⁠  ⁠*Large Language Models (LLMs)* for human-readable safety summaries
 
 ## System Workflow
