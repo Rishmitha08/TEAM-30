@@ -1,0 +1,19 @@
+{
+  "n_clusters": 100,
+  "n_noise": 42,
+  "noise_ratio": 0.084,
+  "silhouette_score": 0.8364747166633606,
+  "davies_bouldin_score": 0.4292523764416984,
+  "calinski_harabasz_score": 147.79969493117878,
+  "total_signals": 100,
+  "mean_signal_score": 19.239166666666666,
+  "max_signal_score": 42.666666666666664,
+  "min_signal_score": 5.0,
+  "high_priority_signals": 0,
+  "avg_growth_rate": 1.4508333333333332,
+  "avg_severity": 3.1490476190476193,
+  "accuracy": 0.968,
+  "precision": 0.9429,
+  "recall": 1.0,
+  "f1_score": 0.9706
+}
