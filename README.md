@@ -109,7 +109,7 @@ Significantly reduces manual workload by automatically clustering, analyzing, an
 
 Generates clear, human-readable safety summaries using Generative AI, improving transparency, interpretability, and trust for clinical and regulatory teams.
 
-•⁠  *⁠*Agentic Decision-Making**
+•⁠  **Agentic Decision-Making**
 
 Uses autonomous reasoning to evaluate frequency, severity, and trends, rather than relying solely on static rules or delayed statistical analysis.
 
@@ -137,7 +137,7 @@ JavaScript (ES6+) for frontend logic
 
 Tailwind CSS for responsive and clean UI design
 
-•⁠  *⁠*Backend**
+•⁠  **Backend**
 
 Python with Flask for REST API development
 
